@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(254, 254, 255);
+    color: rgba(77, 74, 74, 0.973);
+    /* text-align: center; */
+}
+
+label {
+    display: block;
+}
+
+img {
+    display: block;
+    padding-left: 30%;
+    padding-top: 20px;
+}
+
+
+div {
+    text-align: center;
+    color: black;
+    background-color: rgb(233, 226, 222);
+    width: 1340px;
+    height: 500px;
+    align-content: center;
+}
+
+button {
+    display: block;
+}

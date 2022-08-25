@@ -1,6 +1,7 @@
 body {
     background-color: rgb(254, 254, 255);
     color: rgba(77, 74, 74, 0.973);
+    text-align: center;
     /* text-align: center; */
 }
 
@@ -26,4 +27,32 @@ div {
 
 button {
     display: block;
+}
+
+h2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #C55300;
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+  
+}
+  
+#one {
+    padding: 3% 15% 7%;
+  
+}
+  
+.bar-col {
+    padding: 3% 2%;
+}
+  
+#image{
+    padding-right: 100%
+}
+#solution{
+    padding: 3% 15% 7%;
 }

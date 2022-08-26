@@ -1,58 +1,108 @@
 body {
-    background-color: rgb(254, 254, 255);
-    color: rgba(77, 74, 74, 0.973);
-    text-align: center;
-    /* text-align: center; */
-}
-
-label {
-    display: block;
-}
-
-img {
-    display: block;
-    padding-left: 30%;
-    padding-top: 20px;
-}
-
-
-div {
-    text-align: center;
-    color: black;
-    background-color: rgb(233, 226, 222);
-    width: 1340px;
-    height: 500px;
-    align-content: center;
-}
-
-button {
-    display: block;
-}
-
-h2{
+    background-image: url("coin.jpeg");
+    background-size: cover;
+  
+  }
+  .div-one{
+    text-align: left;
+  }
+  
+  .div-two{
+    background-color: white;
+    background-size: cover;
     padding-top: 2rem;
-    padding-bottom: 2rem;
-    color: #C55300;
+    padding-left: 1rem;
+    color: rgb(255, 64, 0);
     text-align: center;
     font-weight: bold;
-}
-p{
+  }
+  
+  h1{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    color: rgb(255, 64, 0);
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  p ,h4{
+    font-weight: normal;
+    text-align: left;
+    padding-left: 1rem;
+    color: #000000;
+  }
+  .small-heading{
     text-align: center;
+    font-weight: bold;
+  }
+  a:link {
+    text-decoration: none;
+  }
   
-}
+  a:visited {
+    text-decoration: none;
+  }
   
-#one {
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  
+  .nav-link {
+    color: rgb(255, 64, 0);
+    padding-top: 2%;
+  }
+  
+  
+  #one {
     padding: 3% 15% 7%;
   
-}
+  }
   
-.bar-col {
+  .bar-col {
     padding: 3% 2%;
-}
+  }
   
-#image{
-    padding-right: 100%
-}
-#solution{
+  #image{
+    padding-right: 10%
+  }
+  #solution{
     padding: 3% 15% 7%;
-}
+  }
+  .second-content{
+    text-align: right;
+  }
+  #homepage .container-fluid{
+    text-align: left;
+    padding: 0.3% 15% 7%;
+  
+  }
+  
+  .content{
+    text-align: left;
+    line-height: 1.5;
+  }
+  
+  #homepage.content-image {
+    position: absolute;
+    float: right;
+  
+  }
+  .image-logo{
+    padding-right: 70%;
+  }
+  .second-content{
+    text-align: right;
+  }
+  .fa-coins{
+    color: rgb(255, 64, 0);
+  }
+  .content-one{
+    text-align: left;
+    line-height: 1;
+    width: 40%
+  }
+  

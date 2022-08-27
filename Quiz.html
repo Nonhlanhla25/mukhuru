@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>financial Quiz</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style1.css">
+  <title>Mukuru Bucks</title>
 </head>
 <body>
-    <h3>Are you ready to earn Mukuru Bucks</h3>
-    <p>Each right question earns you a buck</p>
-    <p>Your 30 seconds starts now...</p>
-    <p><b>Q1.What is to budget</b></p>
-<form>
-  <input type="radio" id="point1" name="point1" value="point1" >
-  <label for="point1">Over spending on things you don,t need ,just to gain likes on social media.</label><br>
 
-  <input type="radio" id="point2" name="point2" value="point2" >
-  <label for="point2">A spending plan that takes into account both current and future income and expences.</label><br>
+  <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">Question Text</h2>
+      <ul>
+        <li>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="a_text">Answer</label>
+        </li>
 
-  <input type="radio" id="point3" name="point3" value="point3" >
-  <label for="point3">The insurance company,that helps you save money on your car, home and business.</label>
+        <li>
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="b_text">Answer</label>
+        </li>
+
+        <li>
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="c_text">Answer</label>
+        </li>
+
+      </ul>
+    </div>
+
+    <button id="submit">Submit</button>
+
+  </div>
+
+
+  <script src="javascript/script.js">
+    
+  </script>
   
-</form>
-
-<p><b>Q2.What is a debt order?</b></p>
-<form>
-  <input type="radio" id="point_1" name="point_1" value="point_1" >
-  <label for="point_1">An agreement made between you and a third party of money being paid for a service or repayment on a loan, every month.</label><br>
-
-  <input type="radio" id="point_2" name="point_2" value="point_2" >
-  <label for="point_2">An order made by the Minister of Finances that your outstaanding payments are not made, you will get a fine.</label><br>
-
-  <input type="radio" id="point_3" name="point_3" value="point_3" >
-  <label for="point_3">Ways of getting things simplier but ordering that money be saved to you savings acount every month</label>
   
-</form>
-
-<p>
-    <button type="submit">Submit</button>
-</p>
-
+  
 </body>
 </html>

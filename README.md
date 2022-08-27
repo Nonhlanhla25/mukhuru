@@ -1,2 +1,2 @@
-# mukuru
+# mukhuru
 hackathon

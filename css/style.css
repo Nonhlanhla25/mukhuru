@@ -105,16 +105,14 @@ body {
   .second-content{
     text-align: right;
   }
-  .fa-coins{
-    color: rgb(255, 64, 0);
-  }
+
   .content-one{
     text-align: left;
     line-height: 1;
     width: 40%
   }
   button{
-    background-color: rgb(240, 135, 15);  
+    background-color: rgb(255, 64, 0);  
     border: none; 
     color: white; 
     padding: 12px 70px; 
@@ -128,6 +126,6 @@ body {
   }
   
   button:hover{
-    background-color: green;
+    background-color: grey;
   }
   
